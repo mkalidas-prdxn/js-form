@@ -211,4 +211,66 @@ form .form_btn input {
   background-color: #fff;
 }
 
+/* 2.2. Table
+   ========================================================================== */
+
+li ul {display: inline-block;}
+li ul li {display: inline-block;}
+.table>li {display: block;}
+.heading {font-weight: 900;}
+
+button {
+  padding: 2px 20px;
+  background-color: #b6b3b3;
+}
+
+.table li ul {
+  width: 80%;
+  border: 0px solid #000;
+  border-width: 0px 1px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table li ul li {
+  padding: 5px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  flex: 1;
+  text-align: center;
+}
+
+.table .heading {
+  border: 0px solid #000;
+  border-width: 1px 1px 0px;
+}
+
+.blank {
+  width: 80.2%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blank li {
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-bottom-width:2px ;
+  border-collapse: collapse;
+  flex: 1;
+  text-align: center;
+  list-style: none;
+}
+
+.blank :first-child {
+  border: 1px solid black;
+  border-width:1px 1px 2px 2px ;
+}
+
+.blank :last-child {
+  border: 1px solid black;
+  border-width:1px 2px 2px 1px ;
+}
 
