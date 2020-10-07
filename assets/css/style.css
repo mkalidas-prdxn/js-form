@@ -165,3 +165,50 @@ main {
   margin: auto;
   margin-top: 20px;
 }
+
+/* 2.1. Form
+   ========================================================================== */
+form {
+  width: 40%;
+  padding:0px 70px;
+  border: 1px solid #000;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin: 20px auto;
+  text-align: start;
+}
+
+#first_name {
+  width: 50%;
+  margin: 0px 20px;
+}
+
+#last_name{
+  width: 50%;
+  margin: 0px 20px;
+}
+
+#male {
+  margin: 0px 20px;
+  margin-left: 50px;
+}
+
+#female {margin: 0px 20px;}
+#address {margin: 0px 40px;}
+
+#ad {
+  display: flex;
+  align-items: center
+}
+
+form .form_btn {text-align: center;}
+
+form .form_btn input {
+  padding: 5px 20px;
+  background-color: #fff;
+}
+
+
