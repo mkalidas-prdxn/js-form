@@ -1,1 +1,103 @@
 <!---->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Client</title>
+  <meta name="description" lang="en" content="">
+  <meta name="keywords" lang="en" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+  <!--container starts here-->
+  <div class="container">
+    <!--header starts here-->
+    <header>
+    </header>
+    <!--header ends here-->
+    <!--main starts here-->
+    <main>
+      <!-- form starts here -->
+      <form action="#" method="GET" name="RegForm" onsubmit="jsform();return false">
+        <div>
+          <label for="first_name">First Name:</label>
+          <input type="text" name="firstname" id="first_name" required>
+        </div>
+        <div>
+          <label for="last_name">Last Name:</label>
+          <input type="text" name="lastname" id="last_name" required>
+        </div>
+        <div>
+          <span>Gender</span>
+          <input type="radio" name="gender" value="male" id="male" checked>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female">Female</label>
+        </div>
+        <div id="ad">
+          <label for="address">Address:</label>
+          <textarea rows="3" cols="30" name="address" id="address" required></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="terms&conditions" id="terms_conditions" required>
+          <label for="terms_conditions">Terms and Conditions</label>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Cancel">
+        </div>
+      </form>
+      <!-- form ends here -->
+      <!-- table starts here -->
+      <ul class="table" id="table1">
+        <li>
+          <ul class="heading tableData">
+            <li class="fname">Name</li>
+            <li class="lname">Last Name</li>
+            <li class="gender">Gender</li>
+            <li class="address">Address</li>
+            <li class="edit">Edit</li>
+            <li class="delete">Delete</li>
+          </ul>
+        </li>
+        <li id="first_table">
+          <ul>
+            <li class="fname">Poonam</li>
+            <li class="lname">Patil</li>
+            <li class="gender">Female</li>
+            <li class="address">Mumbai</li>
+            <li class="edit"><button onclick="x(this);">Edit</button></li>
+            <li class="delete"><button onclick="z(this);">Delete</button></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="blank">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <!-- table ends here -->
+    </main>
+    <!--main ends here-->
+    <!--footer starts here-->
+    <footer>
+    </footer>
+    <!--footer ends here-->
+  </div>
+  <!--container ends here-->
+  <script src="js/vendors/jquery-1.8.3.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
